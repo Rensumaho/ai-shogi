@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --board-bg: #dcb35c;
+  --board-line: #8b6914;
+  --cell-size: 64px;
+  --piece-size: 56px;
+  --selected-bg: rgba(50, 180, 50, 0.35);
+  --legal-bg: rgba(50, 120, 220, 0.3);
+  --last-move-bg: rgba(255, 200, 50, 0.35);
+  --check-bg: rgba(220, 50, 50, 0.35);
+}
+
+body {
+  font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic",
+    "Meiryo", sans-serif;
+  background: #1a1a2e;
+  color: #e0e0e0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

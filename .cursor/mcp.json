@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "ai-shogi": {
+      "command": "npx",
+      "args": ["tsx", "mcp-server/index.ts"],
+      "env": {
+        "SHOGI_API_URL": "http://localhost:3001"
+      }
+    }
+  }
+}
