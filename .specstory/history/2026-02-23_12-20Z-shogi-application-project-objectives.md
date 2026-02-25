@@ -13,7 +13,7 @@ _**User**_
 
 ---
 
-_**Agent (model claude-4.6-opus-high-thinking, mode Agent)**_
+_**Agent (model default, mode Agent)**_
 
 <think><details><summary>Thought Process</summary>
 The user wants me to create a skill file under `.claude/skills` that documents the project's purpose and goals. Let me understand the project:
@@ -146,7 +146,7 @@ _**User**_
 
 ---
 
-_**Agent (model claude-4.6-opus-high-thinking, mode Agent)**_
+_**Agent (model default, mode Agent)**_
 
 <think><details><summary>Thought Process</summary>
 The user is asking a very good architectural question about the feasibility of this project, specifically about how Cursor (the LLM) can detect when the user has finished their move and then fetch the board state. This is indeed a critical design challenge.
@@ -250,7 +250,7 @@ _**User**_
 
 ---
 
-_**Agent (model claude-4.6-opus-high-thinking, mode Agent)**_
+_**Agent (model default, mode Agent)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2">
 <details><summary>Tool use: **read_file_v2** • Read file: c:\Users\IZU\projects\ai-shogi\.claude\skills\ai-shogi-project\SKILL.md</summary>
@@ -297,7 +297,7 @@ _**User**_
 
 ---
 
-_**Agent (model claude-4.6-opus-high-thinking, mode Agent)**_
+_**Agent (model default, mode Agent)**_
 
 <think><details><summary>Thought Process</summary>
 The user wants me to create an implementation plan for the AI Shogi project. Let me first understand what we need to build:
@@ -674,7 +674,7 @@ To-do's from the plan have already been created. Do not create them again. Mark 
 
 ---
 
-_**Agent (model claude-4.6-opus-high-thinking, mode Agent)**_
+_**Agent (model default, mode Agent)**_
 
 <think><details><summary>Thought Process</summary>
 The user wants me to implement the full AI Shogi app according to the plan. Let me start with the first todo: project setup.
@@ -2952,7 +2952,7 @@ _**User**_
 
 ---
 
-_**Agent (model claude-4.6-opus-high-thinking, mode Agent)**_
+_**Agent (model default, mode Agent)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2">
 <details><summary>Tool use: **read_file_v2** • Read file: c:\Users\IZU\projects\ai-shogi\package.json</summary>
@@ -3010,7 +3010,7 @@ MCPで将棋を指せること
 
 ---
 
-_**Agent (model claude-4.6-opus-high-thinking, mode Agent)**_
+_**Agent (model default, mode Agent)**_
 
 <think><details><summary>Thought Process</summary>
 The user wants me to create a skill and/or agent file that will guide Cursor (the LLM) on how to play shogi using the MCP tools. This should include instructions about:
@@ -3145,7 +3145,7 @@ _**User**_
 
 ---
 
-_**Agent (model claude-4.6-opus-high-thinking, mode Agent)**_
+_**Agent (model default, mode Agent)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2">
 <details><summary>Tool use: **read_file_v2** • Read file: c:\Users\IZU\projects\ai-shogi\.claude\skills\shogi-player\SKILL.md</summary>
@@ -3195,6 +3195,12 @@ _**Agent (model claude-4.6-opus-high-thinking, mode Agent)**_
 - `make_move` がエラーを返した場合は `get_legal_moves` で合法手を再確認して選び直すフロー
 
 これにより、エージェントが駒の動きを把握した上で合法手の中から選ぶことを徹底し、不正な手を指す頻度を大幅に減らせます。
+
+---
+
+_**User**_
+
+このプロジェクトのReadmeを簡単にでいいので記述してください。日本語で
 
 ---
 
